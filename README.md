@@ -2,6 +2,7 @@
 
 Bu proje, **NE555 zamanlayıcı entegresi** kullanılarak tasarlanmış basit bir flip-flop devresini içermektedir.  
 Devre şeması **KiCad** ile çizilmiştir.
+TH ve SMD versiyonları vardır. 
 
 ## Özellikler
 - NE555 entegresi ile bistable flip-flop davranışı
@@ -9,9 +10,14 @@ Devre şeması **KiCad** ile çizilmiştir.
 - KiCad dosyaları dahil edilmiştir
 
 ## Dosya Yapısı
-- `flipflop_NE555/` → KiCad şematik dosyaları, PCB tasarım dosyaları  
-- `images/` → Devre şeması ve PCB görselleri
-- `output_gerber/` → Gerber dosyaları
+- `SMD-flipflop-NE555/` → SMD versiyonun dosyaları.
+    - `flipflop_NE555/` → KiCad şematik dosyaları, PCB tasarım dosyaları  
+    - `images/` → Devre şeması ve PCB görselleri
+    - `output_gerber/` → Gerber dosyaları
+- `TH-flipflop-NE555/` → TH versiyonun dosyaları.
+    - `flipflop_NE555/` → KiCad şematik dosyaları, PCB tasarım dosyaları  
+    - `images/` → Devre şeması ve PCB görselleri
+    - `output_gerber/` → Gerber dosyaları
 - `README.md` → Bu dosya 
 
 ## Gereksinimler
@@ -20,6 +26,7 @@ Devre şeması **KiCad** ile çizilmiştir.
   - NE555 entegresi
   - 2x LED
   - Dirençler, kapasitörler
+  - Konnektör
 
 ## Devre Görseli
 ![TH Flip Flop Circuit](TH-flipflop-NE555/images/flipflop.png)
