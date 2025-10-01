@@ -22,7 +22,8 @@ Devre şeması **KiCad** ile çizilmiştir.
   - Dirençler, kapasitörler
 
 ## Devre Görseli
-![Flip Flop Circuit](images/flipflop.png)
+![TH Flip Flop Circuit](TH-flipflop-NE555/images/flipflop.png)
+![SMD Flip Flop Circuit](SMD-flipflop-NE555/images/smd-flipflop.png)
 
 ## Çalışma Prensibi
 - Devre, basit bir flip-flop mantığı ile 5V bağlantısıyla çalışır.
