@@ -9,10 +9,10 @@ Devre şeması **KiCad** ile çizilmiştir.
 - KiCad dosyaları dahil edilmiştir
 
 ## Dosya Yapısı
-- `schematics/` → KiCad şematik dosyaları  
-- `pcb/` → PCB tasarım dosyaları  
-- `images/` → Devre şeması ve PCB görselleri  
-- `README.md` → Bu dosya  
+- `flipflop_NE555/` → KiCad şematik dosyaları, PCB tasarım dosyaları  
+- `images/` → Devre şeması ve PCB görselleri
+- `output_gerber/` → Gerber dosyaları
+- `README.md` → Bu dosya 
 
 ## Gereksinimler
 - KiCad (9.x veya üzeri sürüm)
@@ -25,7 +25,7 @@ Devre şeması **KiCad** ile çizilmiştir.
 ![Flip Flop Circuit](images/flipflop.png)
 
 ## Çalışma Prensibi
-- Devre, basit bir **bistable flip-flop** mantığı ile 5V bağlantısıyla çalışır.
+- Devre, basit bir flip-flop mantığı ile 5V bağlantısıyla çalışır.
 
 ## Katkı
 Geliştirmelere ve önerilere açıktır. Pull request gönderebilirsiniz.
